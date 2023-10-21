@@ -1,0 +1,60 @@
+import{$ as t,c as o}from"./_astro_assets.73e7a57d.js";import{bb as l}from"./ScenePlayer.58d49e5e.js";import"./index.f1f2c4b1.js";import"./Scene_module.c9dcc3ae.81ba598e.js";import"./astro-assets-services.79a8b34c.js";const c={title:"freestyle"};function v(){return[{depth:4,slug:"robot-can-draw",text:"Robot Can Draw"},{depth:6,slug:"example-no-1-robot-draws-a-square",text:"Example no. 1. Robot Draws a Square"},{depth:6,slug:"example-nr-2-robot-draws-a-triangle-and-a-circle",text:"Example nr. 2. Robot Draws a Triangle and a Circle"},{depth:6,slug:"example-no-3-robot-is-an-artist",text:"Example no. 3. Robot is an artist"}]}const k=!0;function s(n){const e=Object.assign({h4:"h4",p:"p",strong:"strong",code:"code",h6:"h6",pre:"pre",span:"span"},n.components);return o(l,{children:[o(e.h4,{id:"robot-can-draw",children:"Robot Can Draw"}),`
+`,o(e.p,{children:[`In this lesson you will learn how to teach a robot to draw.
+The `,o(e.strong,{children:o(e.code,{dir:"auto",children:"PENDOWN"})}),` command tells the robot to lower the pencil. When moving forward or backward, the robot will start drawing.
+The command `,o(e.strong,{children:o(e.code,{dir:"auto",children:"PENUP"})}),` tells the robot to raise the pencil.
+The command `,o(e.strong,{children:o(e.code,{dir:"auto",children:'COLOR "<code>"'})}),` changes the color of the pencil.
+You can find the color codes `,o("a",{href:"https://www.rapidtables.org/web/color/html-color-codes.html",target:"_blank",children:"here"}),"."]}),`
+`,o(e.h6,{id:"example-no-1-robot-draws-a-square",children:"Example no. 1. Robot Draws a Square"}),`
+`,o(e.pre,{class:"astro-code css-variables",style:{backgroundColor:"var(--astro-code-color-background)",color:"var(--astro-code-color-text)",overflowX:"auto"},tabindex:"0",dir:"ltr",children:o(e.code,{children:[o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"PENDOWN"})}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"COLOR"}),o(e.span,{style:{color:"var(--astro-code-token-string-expression)"},children:' "#F39C12"'})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"REPEAT"}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:" 4"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" ["})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  FORWARD"}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:" 130"})]}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  RIGHT"})}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"]"})})]})}),`
+`,o("astro-client-only",{"client:only":!0,level:"#size! 250 250; #start! 60 190; #angle! -90",code:'PIEŠK SPALVA "#F39C12" KARTOK 4 [ PIRMYN 130 DEŠINĖN ]',"client:display-name":"Scene","client:component-path":"/home/slicklash/code/robo1/src/components/Game/components/ScenePlayer/Scene.tsx","client:component-export":"default","client:component-hydration":!0}),`
+`,o(e.h6,{id:"example-nr-2-robot-draws-a-triangle-and-a-circle",children:"Example nr. 2. Robot Draws a Triangle and a Circle"}),`
+`,o(e.pre,{class:"astro-code css-variables",style:{backgroundColor:"var(--astro-code-color-background)",color:"var(--astro-code-color-text)",overflowX:"auto"},tabindex:"0",dir:"ltr",children:o(e.code,{children:[o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"HERE"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" TRIANGLE :size ["})]}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  PENDOWN"})}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  REPEAT"}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:" 3"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" ["})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"    FORWARD"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" :size"})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"    LEFT"}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:" 120"})]}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"  ]"})}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  PENUP"})}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"]"})}),`
+`,o(e.span,{class:"line"}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"HERE"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" CIRCLE :radius ["})]}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  PENDOWN"})}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"  :x = "}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:"2"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" * "}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:"3.14"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" * :radius / "}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:"360"})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  REPEAT"}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:" 360"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" ["})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"    FORWARD"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" :x"})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"    LEFT"}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:" 1"})]}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"  ]"})}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  PENUP"})}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"]"})}),`
+`,o(e.span,{class:"line"}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"TRIANGLE "}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:"120"})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"FORWARD"}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:" 60"})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"CIRCLE "}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:"34"})]})]})}),`
+`,o("astro-client-only",{"client:only":!0,level:"#f! 1; #size! 250 250; #start! 60 190",code:"TAI TRIKAMPIS :ilgis [ PIEŠK KARTOK 3 [ PIRMYN :ilgis KAIRĖN 120 ] NEPIEŠK ] TAI APSKRITIMAS :spindulys [ PIEŠK :x = 2 * 3.14 * :spindulys / 360 KARTOK 360 [ PIRMYN :x KAIRĖN 1 ] NEPIEŠK ] TRIKAMPIS 120 PIRMYN 60 APSKRITIMAS 34","client:display-name":"Scene","client:component-path":"/home/slicklash/code/robo1/src/components/Game/components/ScenePlayer/Scene.tsx","client:component-export":"default","client:component-hydration":!0}),`
+`,o(e.h6,{id:"example-no-3-robot-is-an-artist",children:"Example no. 3. Robot is an artist"}),`
+`,o(e.pre,{class:"astro-code css-variables",style:{backgroundColor:"var(--astro-code-color-background)",color:"var(--astro-code-color-text)",overflowX:"auto"},tabindex:"0",dir:"ltr",children:o(e.code,{children:[o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"HERE"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" ORNAMENT :step :angle :size ["})]}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  PENDOWN"})}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  COLOR"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" choose @["}),o(e.span,{style:{color:"var(--astro-code-token-string-expression)"},children:'"GREEN"'}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:", "}),o(e.span,{style:{color:"var(--astro-code-token-string-expression)"},children:'"RED"'}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:", "}),o(e.span,{style:{color:"var(--astro-code-token-string-expression)"},children:'"BLUE"'}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:", "}),o(e.span,{style:{color:"var(--astro-code-token-string-expression)"},children:'"ORANGE"'}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"]"})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  IF"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" :step > "}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:"100"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" ["}),o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"STOP"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"]"})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  FORWARD"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" :step * :size"})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-token-keyword)"},children:"  RIGHT"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" :angle"})]}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"  ORNAMENT :step + "}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:"2"}),o(e.span,{style:{color:"var(--astro-code-color-text)"},children:" :angle :size"})]}),`
+`,o(e.span,{class:"line",children:o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"]"})}),`
+`,o(e.span,{class:"line",children:[o(e.span,{style:{color:"var(--astro-code-color-text)"},children:"ORNAMENT "}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:"1"}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:" 93"}),o(e.span,{style:{color:"var(--astro-code-token-constant)"},children:" 3"})]})]})}),`
+`,o("astro-client-only",{"client:only":!0,language:"lt",level:"#f! 1; #size! 500 500; #start! 250 250; #angle! -90",code:`
+TAI ORNAMENTAS :žingnis :kampas :dydis [
+PIEŠK
+SPALVA rinkis @["GREEN", "RED", "BLUE", "ORANGE"]
+JEIGU :žingnis > 100 [STOK]
+PIRMYN :žingnis * :dydis
+DEŠINĖN :kampas
+ORNAMENTAS :žingnis + 2 :kampas :dydis
+]
+ORNAMENTAS 1 93 3
+`,"client:display-name":"Scene","client:component-path":"/home/slicklash/code/robo1/src/components/Game/components/ScenePlayer/Scene.tsx","client:component-export":"default","client:component-hydration":!0}),`
+`,o(e.p,{children:"Click “Solve” and try these commands!"})]})}function a(n={}){const{wrapper:e}=n.components||{};return e?o(e,{...n,children:o(s,{...n})}):s(n)}const m="src/content/lessons/en/lesson00.mdx",x="/home/slicklash/code/robo1/src/content/lessons/en/lesson00.mdx",r=(n={})=>a({...n,components:{Fragment:l,...n.components,"astro-image":n.components?.img??t}});r[Symbol.for("mdx-component")]=!0;r[Symbol.for("astro.needsHeadRendering")]=!c.layout;r.moduleId="/home/slicklash/code/robo1/src/content/lessons/en/lesson00.mdx";export{r as Content,k as __usesAstroImage,r as default,x as file,c as frontmatter,v as getHeadings,m as url};
